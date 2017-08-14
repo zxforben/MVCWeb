@@ -1,12 +1,14 @@
 <!DOCTYPE <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title></title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="css/style.css" rel="stylesheet">
-    </head>
-    <body>
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--<link href="css/style.css" rel="stylesheet">-->
+</head>
+
+<body>
     <header></header>
     <nav></nav>
     <article>
@@ -35,9 +37,16 @@
         <form onsubmit="return false" oninput="o.value=parseInt(a.value)+parseInt(b.value)">
             <input name="a" type="number">+
             <input name="b" type="number">=
-            <output name="o"/>
+            <output name="o" />
         </form>
     </aside>
     <footer></footer>
-    </body>
+    <script>
+        var db = openDatabase("dbCustomer", "1.0", "Customer app", 2 * 1024 * 1024);
+        db.transaction(function (tx) {
+
+        });
+    </script>
+</body>
+
 </html>
