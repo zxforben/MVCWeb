@@ -17,6 +17,7 @@ namespace selfHostWebApiOne
             config.Routes.MapHttpRoute(
                 "API Default", "api/{controller}/{id}",
                 new { id = RouteParameter.Optional });
+
             using (var server = new HttpSelfHostServer(config))
             {
                 server.OpenAsync().Wait();
