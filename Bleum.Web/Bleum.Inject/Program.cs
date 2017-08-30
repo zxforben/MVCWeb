@@ -6,8 +6,21 @@ namespace Bleum.Inject
 {
     class Program
     {
+        private static int a;
+
+        private static int b;
+
+        static Program()
+        {
+            a = 2;
+            b = 3;
+        }
+
         static void Main(string[] args)
         {
+            a = 1;
+            b = 2;
+
             IKernel kernal = new StandardKernel(new WarriorModule());
 
             //Samurai s = kernal.Get<Samurai>();// 构造函数注入

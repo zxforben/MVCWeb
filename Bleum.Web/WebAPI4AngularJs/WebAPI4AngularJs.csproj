@@ -304,6 +304,8 @@
     <Content Include="Employee\Delete.html" />
     <Content Include="Employee\Edit.html" />
     <Content Include="Employee\List.html" />
+    <Content Include="Scripts\underscore-awesomer.js" />
+    <Content Include="Scripts\underscore-awesomer.min.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "WebAPI\WebAPI.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI4AngularJs", "WebAPI4AngularJs\WebAPI4AngularJs.csproj", "{9983DFE6-1EEE-441E-8AD4-642748785A62}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "selfHostWebApiOne", "selfHostWebApiOne\selfHostWebApiOne.csproj", "{69062358-23CF-48FE-BC1B-D53502A362F4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{9983DFE6-1EEE-441E-8AD4-642748785A62}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9983DFE6-1EEE-441E-8AD4-642748785A62}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9983DFE6-1EEE-441E-8AD4-642748785A62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69062358-23CF-48FE-BC1B-D53502A362F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69062358-23CF-48FE-BC1B-D53502A362F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69062358-23CF-48FE-BC1B-D53502A362F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69062358-23CF-48FE-BC1B-D53502A362F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
